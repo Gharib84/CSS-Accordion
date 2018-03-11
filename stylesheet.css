@@ -1,0 +1,11 @@
+#accordion div
+{
+    overflow: hidden;
+    transition: height 2 ease-in-out;
+    -webkit-transition: height 2 ease-in-out;
+    height: 0;
+}
+
+#accordion div:target{
+    height: 120px;
+}
